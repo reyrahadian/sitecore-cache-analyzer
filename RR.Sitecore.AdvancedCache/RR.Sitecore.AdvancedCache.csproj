@@ -48,15 +48,25 @@
       <HintPath>..\packages\Sitecore.Client.NoReferences.8.2.180406\lib\NET452\Sitecore.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.2.180406\lib\NET452\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="sitecore\admin\cache-advanced.aspx" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheInfo.cs" />
+    <Compile Include="CacheManager.cs" />
+    <Compile Include="CacheManagerSingleton.cs" />
+    <Compile Include="CacheProvider.cs" />
+    <Compile Include="ICacheProvider.cs" />
     <Compile Include="sitecore\admin\cache-advanced.aspx.cs">
       <DependentUpon>cache-advanced.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

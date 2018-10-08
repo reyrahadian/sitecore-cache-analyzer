@@ -31,13 +31,13 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin {
         protected global::System.Web.UI.WebControls.Label Caches;
         
         /// <summary>
-        /// c_refresh control.
+        /// btnRefresh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button c_refresh;
+        protected global::System.Web.UI.WebControls.Button btnRefresh;
         
         /// <summary>
         /// c_clearAll control.
@@ -83,5 +83,14 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder c_caches;
+        
+        /// <summary>
+        /// rptCaches control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptCaches;
     }
 }
