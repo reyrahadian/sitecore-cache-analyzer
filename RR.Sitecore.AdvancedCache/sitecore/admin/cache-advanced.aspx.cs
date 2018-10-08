@@ -1,5 +1,6 @@
-﻿using System;
-using Sitecore.sitecore.admin;
+﻿using Sitecore.sitecore.admin;
+using System;
+using System.Linq;
 
 namespace RR.Sitecore.AdvancedCache.sitecore.admin
 {
@@ -23,7 +24,7 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin
 		protected void btnRefresh_OnClick(object sender, EventArgs e)
 		{
 			var caches = CacheManagerSingleton.Current.GetAllCaches();
-			rptCaches.DataSource = caches;
+			rptCaches.DataSource = caches.OrderBy(x => x.Name);
 			rptCaches.DataBind();
 		}
 	}

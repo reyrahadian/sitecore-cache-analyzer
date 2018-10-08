@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cache-advanced.aspx.cs" Inherits="RR.Sitecore.AdvancedCache.sitecore.admin.AdvancedCacheAdmin" %>
+<%@ Import Namespace="Sitecore" %>
 
 <!DOCTYPE html>
 
@@ -57,9 +58,9 @@
 								<td></td>
 								<td><%# Item.Name%></td>
 								<td><%# Item.Count%></td>
-								<td><%# Item.Size%></td>
-								<td><%# Item.DeltaSize%></td>
-								<td><%# Item.MaxSize %></td>
+								<td><%# MainUtil.FormatSize(Item.Size)%></td>
+								<td><%# MainUtil.FormatSize(Item.DeltaSize)%></td>
+								<td><%# MainUtil.FormatSize(Item.MaxSize) %></td>
 							</tr>
 						</ItemTemplate>
 						<FooterTemplate>
