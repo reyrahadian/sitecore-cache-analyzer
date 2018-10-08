@@ -58,22 +58,22 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// c_totals control.
+        /// labelTotals control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label c_totals;
+        protected global::System.Web.UI.WebControls.Label labelTotals;
         
         /// <summary>
-        /// c_cacheTitle control.
+        /// labelCacheTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label c_cacheTitle;
+        protected global::System.Web.UI.WebControls.Label labelCacheTitle;
         
         /// <summary>
         /// c_caches control.

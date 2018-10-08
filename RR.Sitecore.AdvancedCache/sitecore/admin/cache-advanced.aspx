@@ -26,7 +26,7 @@
 				</td>
 				<td></td>
 				<td>
-					<asp:Label ID="c_totals" runat="server">[totals]</asp:Label>
+					<asp:Label ID="labelTotals" runat="server"></asp:Label>
 				</td>
 			</tr>
 			<tr>
@@ -36,7 +36,7 @@
 			</tr>
 			<tr>
 				<td valign="top">
-					<asp:Label ID="c_cacheTitle" runat="server">Caches</asp:Label>
+					<asp:Label ID="labelCacheTitle" runat="server">Caches</asp:Label>
 				</td>
 				<td></td>
 				<td>
