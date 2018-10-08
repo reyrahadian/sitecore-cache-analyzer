@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RR.Sitecore.AdvancedCache {
+namespace RR.Sitecore.AdvancedCache.sitecore.admin {
     
     
     public partial class AdvancedCacheAdmin {

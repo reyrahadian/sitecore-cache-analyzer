@@ -1,7 +1,7 @@
 ﻿using System;
 using Sitecore.sitecore.admin;
 
-namespace RR.Sitecore.AdvancedCache
+namespace RR.Sitecore.AdvancedCache.sitecore.admin
 {
 	public partial class AdvancedCacheAdmin : AdminPage
 	{

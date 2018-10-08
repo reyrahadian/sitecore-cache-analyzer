@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cache-advanced.aspx.cs" Inherits="RR.Sitecore.AdvancedCache.AdvancedCacheAdmin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cache-advanced.aspx.cs" Inherits="RR.Sitecore.AdvancedCache.sitecore.admin.AdvancedCacheAdmin" %>
 
 <!DOCTYPE html>
 
