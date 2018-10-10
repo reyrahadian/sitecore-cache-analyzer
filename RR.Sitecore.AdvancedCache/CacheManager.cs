@@ -15,5 +15,10 @@ namespace RR.Sitecore.AdvancedCache
 		{
 			return _cacheProvider.GetAllCaches() ?? new List<CacheInfo>();
 		}
+
+		public ItemCacheInfo GetAllItemCaches(string databaseName)
+		{
+			return _cacheProvider.GetAllItemCaches(databaseName);
+		}
 	}
 }

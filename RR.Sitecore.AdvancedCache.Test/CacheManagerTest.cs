@@ -28,6 +28,6 @@ namespace RR.Sitecore.AdvancedCache.Test
 				var cacheManager = new CacheManager(cacheProvider.Object);
 				cacheManager.GetAllCaches().Should().NotBeNull();
 			}
-		}
+		}		
 	}
 }

@@ -7,19 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RR.Sitecore.AdvancedCache.sitecore.admin {
+namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
     
     
-    public partial class AdvancedCacheAdmin {
-        
-        /// <summary>
-        /// mainForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm mainForm;
+    public partial class _GeneralCache {
         
         /// <summary>
         /// Caches control.
@@ -67,6 +58,15 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin {
         protected global::System.Web.UI.WebControls.Label labelTotals;
         
         /// <summary>
+        /// lbItemCacheFilter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lbItemCacheFilter;
+        
+        /// <summary>
         /// labelCacheTitle control.
         /// </summary>
         /// <remarks>
@@ -92,5 +92,23 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rptCaches;
+        
+        /// <summary>
+        /// lblCacheInfo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCacheInfo;
+        
+        /// <summary>
+        /// rptItems control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptItems;
     }
 }
