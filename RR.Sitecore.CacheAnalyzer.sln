@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.Sitecore.AdvancedCache", "RR.Sitecore.AdvancedCache\RR.Sitecore.AdvancedCache.csproj", "{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.Sitecore.CacheAnalyzer.Test", "RR.Sitecore.CacheAnalyzer.Test\RR.Sitecore.CacheAnalyzer.Test.csproj", "{4BB81DD9-D486-4C48-9945-A47F086AEFEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.Sitecore.AdvancedCache.Test", "RR.Sitecore.AdvancedCache.Test\RR.Sitecore.AdvancedCache.Test.csproj", "{4BB81DD9-D486-4C48-9945-A47F086AEFEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.Sitecore.CacheAnalyzer", "RR.Sitecore.CacheAnalyzer\RR.Sitecore.CacheAnalyzer.csproj", "{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BB81DD9-D486-4C48-9945-A47F086AEFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BB81DD9-D486-4C48-9945-A47F086AEFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB81DD9-D486-4C48-9945-A47F086AEFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB81DD9-D486-4C48-9945-A47F086AEFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9807BA8-9E4B-4D16-B9CD-93452AD9E1BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -80,9 +80,9 @@
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RR.Sitecore.AdvancedCache\RR.Sitecore.AdvancedCache.csproj">
+    <ProjectReference Include="..\RR.Sitecore.CacheAnalyzer\RR.Sitecore.CacheAnalyzer.csproj">
       <Project>{d9807ba8-9e4b-4d16-b9cd-93452ad9e1bb}</Project>
-      <Name>RR.Sitecore.AdvancedCache</Name>
+      <Name>RR.Sitecore.CacheAnalyzer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
