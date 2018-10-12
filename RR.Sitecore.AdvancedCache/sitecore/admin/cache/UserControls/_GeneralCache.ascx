@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="_GeneralCache.ascx.cs" Inherits="RR.Sitecore.AdvancedCache.sitecore.admin.cache._GeneralCache" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="_GeneralCache.ascx.cs" Inherits="RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls._GeneralCache" %>
 <%@ Import Namespace="Sitecore" %>
 <table id="Table1" style="height: 154px; width: 594px;" cellspacing="1" cellpadding="1"
        width="594" border="1">
@@ -24,7 +24,6 @@
 		<td style="height: 36px"></td>
 		<td style="height: 36px"></td>
 		<td style="height: 36px">
-			<asp:LinkButton runat="server" ID="lbItemCacheFilter" OnClick="lbItemCacheFilter_OnClick" Text="Item Caches"></asp:LinkButton>
 		</td>
 	</tr>
 	<tr>
@@ -34,25 +33,21 @@
 		<td></td>
 		<td>
 			<asp:PlaceHolder ID="c_caches" runat="server"></asp:PlaceHolder>
-			<asp:Repeater runat="server" ID="rptCaches" ItemType="RR.Sitecore.AdvancedCache.CacheInfo">
+			<asp:Repeater runat="server" ID="rptCaches" ItemType="RR.Sitecore.AdvancedCache.Models.CacheInfo">
 				<HeaderTemplate>
 					<table border="1">
 					<thead>
-					<td></td>
 					<td>Name</td>
 					<td>Count</td>
 					<td>Size</td>
-					<td>Delta</td>
 					<td>Max Size</td>
 					</thead>
 				</HeaderTemplate>
 				<ItemTemplate>
 					<tr>
-						<td></td>
 						<td><%# Item.Name %></td>
 						<td><%# Item.Count %></td>
 						<td><%# MainUtil.FormatSize(Item.Size) %></td>
-						<td><%# MainUtil.FormatSize(Item.DeltaSize) %></td>
 						<td><%# MainUtil.FormatSize(Item.MaxSize) %></td>
 					</tr>
 				</ItemTemplate>

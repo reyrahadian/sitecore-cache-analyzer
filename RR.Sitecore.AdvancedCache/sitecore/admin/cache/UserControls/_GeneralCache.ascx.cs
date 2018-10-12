@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using RR.Sitecore.AdvancedCache.Managers;
+using RR.Sitecore.AdvancedCache.Models;
 using Sitecore;
 
-namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache
+namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls
 {
 	public partial class _GeneralCache : System.Web.UI.UserControl
 	{
@@ -14,7 +16,7 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache
 
 		protected void btnRefresh_OnClick(object sender, EventArgs e)
 		{
-			var caches = CacheManagerSingleton.Current.GetAllCaches().ToList();
+			var caches = CacheManager.Instance.GetAllCaches().ToList();
 			ListCaches(caches);
 			DisplayTotalSizeInfo(caches);
 		}
@@ -30,14 +32,6 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache
 		{
 			rptCaches.DataSource = caches.OrderBy(x => x.Name);
 			rptCaches.DataBind();
-		}
-
-		protected void lbItemCacheFilter_OnClick(object sender, EventArgs e)
-		{
-			var cacheInfo = CacheManagerSingleton.Current.GetAllItemCaches("master");
-			lblCacheInfo.Text = $"Name:{cacheInfo.Name} DatabaseName:{cacheInfo.DatabaseName} Count:{cacheInfo.Count} Size:{MainUtil.FormatSize(cacheInfo.CacheSize)}";
-			rptItems.DataSource = cacheInfo.Items;
-			rptItems.DataBind();
-		}
+		}		
 	}
 }

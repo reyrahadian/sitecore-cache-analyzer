@@ -7,36 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
+namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls {
     
     
-    public partial class cache_advanced_test {
+    public partial class _DatabaseCache {
         
         /// <summary>
-        /// form1 control.
+        /// plcTableOfContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.PlaceHolder plcTableOfContent;
         
         /// <summary>
-        /// lbl control.
+        /// rptTableOfContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl;
+        protected global::System.Web.UI.WebControls.Repeater rptTableOfContent;
         
         /// <summary>
-        /// rpt control.
+        /// rptDatabaseCachesInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rpt;
+        protected global::System.Web.UI.WebControls.Repeater rptDatabaseCachesInfo;
     }
 }

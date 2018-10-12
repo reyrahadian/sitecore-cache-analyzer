@@ -1,7 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RR.Sitecore.AdvancedCache.sitecore.admin.cache.AdvancedCacheAdmin" %>
 
-<%@ Register Src="~/sitecore/admin/cache-advanced/_GeneralCache.ascx" TagPrefix="uc1" TagName="_GeneralCache" %>
-
+<%@ Register Src="~/sitecore/admin/cache/UserControls/_GeneralCache.ascx" TagPrefix="uc1" TagName="_GeneralCache" %>
+<%@ Register Src="~/sitecore/admin/cache/UserControls/_SiteCaches.ascx" TagPrefix="uc1" TagName="_SiteCaches" %>
+<%@ Register Src="~/sitecore/admin/cache/UserControls/_DatabaseCache.ascx" TagPrefix="uc1" TagName="_DatabaseCache" %>
 
 <!DOCTYPE html>
 
@@ -25,9 +26,11 @@
 			</asp:View>
 			<asp:View runat="server" ID="viewSiteCaches">
 				<h1>Site Caches</h1>
+				<uc1:_SiteCaches runat="server" id="_SiteCaches" />
 			</asp:View>
 			<asp:View runat="server" ID="viewDatabaseCaches">
 				<h1>Database Caches</h1>
+				<uc1:_DatabaseCache runat="server" id="_DatabaseCache" />
 			</asp:View>
 			<asp:View runat="server" ID="viewAccessResultCaches">
 				<h1>Access Result Caches</h1>

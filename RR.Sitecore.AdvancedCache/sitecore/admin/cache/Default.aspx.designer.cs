@@ -37,7 +37,7 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl _GeneralCache;
+        protected global::RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls._GeneralCache _GeneralCache;
         
         /// <summary>
         /// viewSiteCaches control.
@@ -49,6 +49,15 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
         protected global::System.Web.UI.WebControls.View viewSiteCaches;
         
         /// <summary>
+        /// _SiteCaches control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls._SiteCaches _SiteCaches;
+        
+        /// <summary>
         /// viewDatabaseCaches control.
         /// </summary>
         /// <remarks>
@@ -56,6 +65,15 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.View viewDatabaseCaches;
+        
+        /// <summary>
+        /// _DatabaseCache control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls._DatabaseCache _DatabaseCache;
         
         /// <summary>
         /// viewAccessResultCaches control.

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
+namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache.UserControls {
     
     
     public partial class _GeneralCache {
@@ -56,15 +56,6 @@ namespace RR.Sitecore.AdvancedCache.sitecore.admin.cache {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label labelTotals;
-        
-        /// <summary>
-        /// lbItemCacheFilter control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbItemCacheFilter;
         
         /// <summary>
         /// labelCacheTitle control.
